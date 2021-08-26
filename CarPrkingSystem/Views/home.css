@@ -1,0 +1,239 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.bgimage {
+  background-image: url(Images/car.jpg);
+  background-size: 100% 110%;
+  width: 100%;
+  height: 100vh;
+}
+
+.menu {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.leftmenu {
+  width: 20%;
+  line-height: 100px;
+  float: left;
+  /*	background-color: yellow;*/
+}
+
+.leftmenu h3 {
+  padding-left: 70px;
+  font-weight: bold;
+  color: white;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+.leftmenu h3 a {
+  color: white;
+  text-decoration: none;
+}
+
+.rightmenu {
+  width: 70%;
+  height: 100px;
+  float: right;
+  /*	background-color: red; */
+}
+
+.rightmenu ul {
+  margin-left: 200px;
+}
+
+.rightmenu ul li {
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  list-style: none;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  line-height: 100px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#fisrtlist {
+  color: orange;
+}
+.rightmenu ul li a:hover {
+  color: orange;
+  text-decoration: none;
+}
+.rightmenu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.text {
+  width: 100%;
+  margin-top: 185px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+
+.text h3 {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text h1 {
+  font-size: 62px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700px;
+  margin: 14px 0px;
+}
+
+.text h2 {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#buttonone {
+  background-color: white;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 40px;
+  width: 150px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 25px;
+  border: 3px solid white;
+  cursor: pointer;
+}
+
+
+
+.dropdown{
+    display:inline-block;
+    position:relative;
+  }
+  
+.buttontwo{
+    background-color: white;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 40px;
+  width: 150px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 25px;
+  border: 3px solid white;
+  transition:.3s;
+    
+  cursor: pointer;
+  }
+
+.dropdown:hover buttontwo{
+    background-color:hotPink;
+  }
+  
+  .dropdown div{
+    background-color:#fff;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    z-index:1;
+    visibility:hidden;
+    position:absolute;
+    min-width:100%;
+    opacity:0;
+    transition:.3s;
+  }
+  
+  .dropdown:hover div{
+    visibility:visible;
+    opacity:1;
+  }
+  
+  .dropdown div a{
+    display:block;
+    text-decoration:none;
+    padding:8px;
+    color:#000;
+    transition:.1s;
+	font-size: 12px;
+	font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+    white-space:nowrap;
+  }
+  
+  .dropdown div a:hover{
+    background-color:#e68001;
+    color:#fff;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+/* .rightmenu ul li:hover.sub-menu{
+	
+	
+	display:block;
+	position:absolute;
+margin-top:15px;
+margin-left:-15px;
+	
+	
+}
+
+.rightmenu ul li:hover.sub-menu ul{
+	display:block;
+	margin:10px;
+	
+	
+	
+}
+
+
+
+.rightmenu ul li:hover.sub-menu ul li{
+	width:150px;
+	padding:10px;
+	border-bottom:1px dotted #fff;
+	border-radius:0;
+	text-align:left;
+	
+	
+	
+}
+
+
+
+.rightmenu ul li a:hover.sub-menu ul li:last-child{
+	border-bottom:none;
+	
+	
+	
+}
+
+.rightmenu ul li:hover.sub-menu ul li a:hover{
+	
+	
+	color:orange;
+	
+} */
+
+
+
+
+
+

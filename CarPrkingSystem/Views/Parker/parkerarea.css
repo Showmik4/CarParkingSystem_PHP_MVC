@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(../Images/car.jpg);
+  background-size: 100% 110%;
+  width: 100%;
+  height: 100vh;
+}
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.menu {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.leftmenu {
+  width: 20%;
+  line-height: 100px;
+  float: left;
+  /*	background-color: yellow;*/
+}
+
+.leftmenu h3 {
+  padding-left: 70px;
+  font-weight: bold;
+  color: white;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+.leftmenu h3 a {
+  color: white;
+  text-decoration: none;
+}
+
+.rightmenu {
+  width: 70%;
+  height: 100px;
+  float: right;
+  /*	background-color: red; */
+}
+
+.rightmenu ul {
+  margin-left: 170px;
+}
+
+.rightmenu ul li {
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  list-style: none;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  line-height: 100px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#buttonone {
+  background-color: white;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 20px;
+  width: 70px;
+  font-family: "Montserrat", sans-serif;
+  border: 3px solid white;
+  cursor: pointer;
+  transform: translate(70%, -90%);
+  margin-left: 82%;
+}
+.sidebar {
+  position: fixed;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background: #060307;
+  transition: all 0.5s ease;
+}
+.sidebar header {
+  font-size: 22px;
+  color: white;
+  line-height: 70px;
+  text-align: center;
+  background: #ffaf02;
+  user-select: none;
+}
+.sidebar ul a {
+  display: block;
+  height: 1000%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: white;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  transition: 0.4s;
+}
+ul li:hover a {
+  padding-left: 50px;
+}
+.sidebar ul a i {
+  margin-right: 16px;
+}
+#check {
+  display: none;
+}
+label #btn,
+label #cancel {
+  position: absolute;
+  background: #042331;
+  border-radius: 3px;
+  cursor: pointer;
+}
+label #btn {
+  left: 20px;
+  top: 110px;
+  font-size: 35px;
+  color: white;
+  padding: 6px 12px;
+  transition: all 0.5s;
+}
+label #cancel {
+  z-index: 1111;
+  left: -195px;
+  top: 110px;
+  font-size: 30px;
+  color: #ffffff;
+  padding: 4px 9px;
+  transition: all 0.5s ease;
+}
+#check:checked ~ .sidebar {
+  left: 0;
+}
+#check:checked ~ label #btn {
+  left: 250px;
+  opacity: 0;
+  pointer-events: none;
+}
+#check:checked ~ label #cancel {
+  left: 265px;
+}
+#check:checked ~ section {
+  margin-left: 250px;
+}
+.welcome h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  padding-right: 261px;
+  padding-top: 27px;
+}
+.text h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.main-section {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0px 5px;
+}
+.dashbord {
+  width: 62%;
+  display: inline-block;
+  background-color: #34495e;
+  color: #fff;
+  margin-top: 50px;
+}
+.icon-section i {
+  font-size: 30px;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-top: -25px;
+  margin-bottom: 10px;
+  background-color: #34495e;
+}
+.icon-section p {
+  margin: 0px;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.detail-section {
+  background-color: #2f4254;
+  padding: 5px 0px;
+}
+.dashbord .detail-section:hover {
+  background-color: #5a5a5a;
+  cursor: pointer;
+}
+.detail-section a {
+  color: #fff;
+  text-decoration: none;
+}
+.dashbord-green .icon-section,
+.dashbord-green .icon-section i {
+  background-color: #16a085;
+}
+.dashbord-green .detail-section {
+  background-color: #149077;
+}
+.dashbord-orange .icon-section,
+.dashbord-orange .icon-section i {
+  background-color: #f39c12;
+}
+.dashbord-orange .detail-section {
+  background-color: #da8c10;
+}
+.dashbord-blue .icon-section,
+.dashbord-blue .icon-section i {
+  background-color: #2980b9;
+}
+.dashbord-blue .detail-section {
+  background-color: #2573a6;
+}
+.dashbord-red .icon-section,
+.dashbord-red .icon-section i {
+  background-color: #e74c3c;
+}
+.dashbord-red .detail-section {
+  background-color: #cf4436;
+}
+.dashbord-skyblue .icon-section,
+.dashbord-skyblue .icon-section i {
+  background-color: #8e44ad;
+}
+.dashbord-skyblue .detail-section {
+  background-color: #803d9b;
+}
